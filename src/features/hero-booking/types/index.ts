@@ -10,6 +10,8 @@ export interface CabinBookingDetails {
   checkInTime: string;
   checkOutTime: string;
   pricePerNight: number;
+  nightsCount: number;
+  totalPrice: number;
   guestsRange: string;
 }
 

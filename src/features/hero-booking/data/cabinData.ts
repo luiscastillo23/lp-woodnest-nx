@@ -8,7 +8,7 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const HERO_HEADLINE: [string, string, string] = [
-  "Nature's",
+  "Nature’s",
   "Perfect",
   "Hideaways",
 ];
@@ -22,10 +22,12 @@ export const HERO_STATS: HeroStats = {
 
 export const CABIN_BOOKING_DATA: CabinBookingDetails = {
   titleLines: ["Evergreen", "Pine Family Lodge"],
-  startDate: "Feb 11",
-  endDate: "Mar 25",
+  startDate: "Oct 21",
+  endDate: "Oct 24",
   checkInTime: "After 2:00 PM",
   checkOutTime: "Until 12:00 PM",
   pricePerNight: 359,
-  guestsRange: "2-5 guests",
+  nightsCount: 3,
+  totalPrice: 1077,
+  guestsRange: "2–5 guests",
 };
