@@ -9,7 +9,7 @@ interface ViewportFrameProps {
 export function ViewportFrame({ children }: ViewportFrameProps) {
   return (
     <main className="relative w-screen h-screen overflow-hidden bg-[#111d23] select-none">
-      <div className="relative w-full h-full overflow-hidden">
+      <div className="relative w-full h-full overflow-y-auto overflow-x-hidden lg:overflow-hidden">
         {children}
       </div>
     </main>
